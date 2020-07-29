@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A project on using javascript to build \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Donly javascr \u001b[Dipt to build web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hillarioh/Restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hillarioh/Restaurant-page/issues"
+  },
+  "homepage": "https://github.com/hillarioh/Restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
