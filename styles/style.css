@@ -1,0 +1,16 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 227, 227);
+}
+
+#content {
+    padding: 3rem;
+    min-height: 100vh;
+    background: white;
+    border-radius: 5px;
+
+}
+
+#content 
