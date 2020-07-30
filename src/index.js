@@ -1,4 +1,7 @@
-import "./nav.js";
+import header from "./nav";
+import home from './home';
 
-console.log("No woman nio cry");
+const content = document.getElementById("content");
+content.appendChild(header);
+content.appendChild(home);
 
