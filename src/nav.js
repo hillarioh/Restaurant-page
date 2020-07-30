@@ -1,11 +1,12 @@
 import "../styles/style.css";
 
-const content = document.getElementById("content");
-
 let header = document.createElement("header");
 let logoContainer = document.createElement("div");
+logoContainer.classList.add("logo");
 let logoTitle = document.createElement("h2");
 let logoDesc = document.createElement("p");
+logoTitle.classList.add("my-1","mx-0");
+logoDesc.classList.add("m-0","p-1");
 logoTitle.textContent = "TOCO NICO";
 logoDesc.textContent = "Traditional delicacies";
 
@@ -14,6 +15,7 @@ logoContainer.appendChild(logoDesc);
 logoContainer.classList.add("d-flex", "flex-column");
 
 let navlinks = document.createElement("ul");
+navlinks.setAttribute("id", "h-ul");
 let homelink = document.createElement("li");
 homelink.textContent = "Home";
 let menulink = document.createElement("li");
@@ -27,6 +29,12 @@ navlinks.appendChild(contactlink);
 
 header.appendChild(logoContainer);
 header.appendChild(navlinks);
-header.classList.add("d-flex", "justify-content-between", "bg-info");
+header.classList.add(
+  "d-flex",
+  "justify-content-between",
+  "align-items-center",
+  "p-1"
+);
 
-content.appendChild(header);
+export default header;
+
