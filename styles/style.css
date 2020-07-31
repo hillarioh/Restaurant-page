@@ -33,7 +33,58 @@ li {
     font-size: 20px;
 }
 
-.mainContent{
+.mainContent {
     height: 70vh;
-    background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.mainContent>p {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+    color: black;
+    font-family: 'Fruktur';
+}
+
+#foods {
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+
+}
+
+.item {
+    flex: 30%;
+    max-width: 30%;
+    margin: 1rem;
+    padding: 14px 8px;
+    border: 1px solid rgba(67, 82, 67, 0.933);
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.item p {
+    color: #888;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#img {
+    height: 220px;
+    max-width: 100% !important;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
