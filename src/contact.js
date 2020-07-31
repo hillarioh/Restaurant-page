@@ -1,13 +1,13 @@
-import "../styles/style.css";
+import '../styles/style.css';
 
-const contact = document.createElement('div')
-contact.classList.add("pt-3","bg-secondary");
-const heading = document.createElement('h3')
-heading.textContent = "Contact Us";
-heading.classList.add("text-center");
+const contact = document.createElement('div');
+contact.classList.add('pt-3', 'bg-secondary');
+const heading = document.createElement('h3');
+heading.textContent = 'Contact Us';
+heading.classList.add('text-center');
 contact.appendChild(heading);
-const contlist = document.createElement('div')
-contlist.setAttribute("class","contlist");
+const contlist = document.createElement('div');
+contlist.setAttribute('class', 'contlist');
 
 const contactDetails = `
     <div class="takeaway cnt">
@@ -35,11 +35,10 @@ const contactDetails = `
     <div class="social cnt">
         <i class="fab fa-twitter"></i>
         <h4 class="m-0 p-0">Twitter</h4>
-    </div>` ;
+    </div>`;
 
 contlist.innerHTML = contactDetails;
 
 contact.appendChild(contlist);
 
 export default contact;
-
