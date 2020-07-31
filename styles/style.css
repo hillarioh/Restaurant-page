@@ -88,3 +88,20 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.contlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contlist .cnt {
+    flex: 30%;
+    max-width: 30%;
+    margin: 1rem;
+    padding: 14px 8px;
+    text-align: center;
+}
+
+.contlist .cnt i{
+    font-size: 2rem;
+}
