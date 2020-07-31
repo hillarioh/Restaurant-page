@@ -21,7 +21,7 @@ js-restaurant-page is a simple javascript application that shows three different
 -Webpack
 
 ## Live Demo
-[Live link](https://pedantic-pike-f0dd3d.netlify.app/)
+[Live link](https://raw.githack.com/hillarioh/Restaurant-page/gh-pages/index.html)
 
 
 ## Authors
