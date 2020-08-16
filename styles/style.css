@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(238, 227, 227);
+  font-family: "Quicksand", sans-serif;
+}
+
+#content {
+  margin: 4rem 5rem;
+  padding: 3rem;
+  min-height: 100vh;
+  background: white;
+  border-radius: 2rem;
+}
+
+.logo > h2 {
+  line-height: 1rem;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+#h-ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  margin: 0 2rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.mainContent {
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.mainContent > p {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+  color: black;
+  font-family: "Fruktur", sans-serif;
+}
+
+#foods {
+  display: flex;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+.item {
+  flex: 30%;
+  max-width: 30%;
+  margin: 1rem;
+  padding: 14px 8px;
+  border: 1px solid rgba(67, 82, 67, 0.933);
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.item h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.item p {
+  color: #888;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#img {
+  height: 220px;
+  max-width: 100% !important;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contlist .cnt {
+  flex: 30%;
+  max-width: 30%;
+  margin: 1rem;
+  padding: 14px 8px;
+  text-align: center;
+}
+
+.contlist .cnt i {
+  font-size: 2rem;
+}
